@@ -11,7 +11,7 @@ DHT dht(DHTPIN,DHTTYPE);
 
 #define MAX_TEMP 30.0f
 
-// String KEY = "";
+String KEY = "pass";
 
 void setup() {
   NefryRESTAPI.begin();
